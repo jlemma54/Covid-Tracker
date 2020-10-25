@@ -6,15 +6,15 @@ from WebScraper import WebScraper
 
 class Intro:
 
-    account_sid = 
-    account_token = 
+    account_sid = ''
+    account_token = ''
 
     def sendIntro(self):
         client = Client(Intro.account_sid, Intro.account_token)
 
         client.messages.create(
-            to= '+15132837210',
-            from_='+17032918270',
+            to= '',
+            from_='',
             body="Welcome to the covid-19 tracker! What state would you like to recieve info on?"
 
         )

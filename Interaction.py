@@ -6,8 +6,8 @@ from WebScraper import WebScraper
 
 class Intro:
 
-    account_sid = 'ACb05b30eabad7258cc53c02ca565f882e'
-    account_token = '065e7dc0674e1c6361e5e0199a89a9e8'
+    account_sid = 
+    account_token = 
 
     def sendIntro(self):
         client = Client(Intro.account_sid, Intro.account_token)
